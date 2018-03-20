@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yinjunzi.zxingforandroid.MainActivity">
+
+    <com.yinjunzi.zxinglibrary.embedded.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/zxing_barcode_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cornerColor="@color/colorPrimary"
+        app:qrCodeTipText="将二维码放入扫描框即可"
+        app:isTipTextBelowRect="true"
+        app:isShowTipTextAsSingleLine="true"
+        app:tipTextColor="@color/colorPrimary"
+        app:zxing_preview_scaling_strategy="centerCrop"
+        app:zxing_use_texture_view="false" />
+
+</LinearLayout>

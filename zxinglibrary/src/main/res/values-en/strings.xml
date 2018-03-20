@@ -1,0 +1,5 @@
+<resources>
+    <string name="zxing_msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+</resources>
+
+
